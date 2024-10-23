@@ -4,7 +4,7 @@ const clientReq = require('../reqs/client.req')
 
 router.post('/client', clientReq.createClient)
 router.get('/client', clientReq.getClients)
-router.get('/client/:id', clientReq.getClientID)
+router.get('/client/:id', clientReq.getClientId)
 router.put('/client', clientReq.updateClient)
 router.delete('/client/:id', clientReq.deleteClient)
 
